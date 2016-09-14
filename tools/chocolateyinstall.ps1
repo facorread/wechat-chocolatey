@@ -16,7 +16,7 @@ $packageArgs = @{
   validExitCodes= @(0)
 
   softwareName  = 'WeChat*'
-  checksum      = 'a4c730850d97eced773a4c47e0917a63'
+  checksum      = '7ff5f5f96b5dfc0def49505a6d00dc6a'
   checksumType  = 'md5'
 }
 
