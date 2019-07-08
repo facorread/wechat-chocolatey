@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'wechat'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://dlglobal.qq.com/weixin/Windows/WeChat_C1018.exe'
+$url        = 'https://dlglobal.qq.com/weixin/Windows/WeChat_C1018.exe'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -16,26 +16,8 @@ $packageArgs = @{
   validExitCodes= @(0)
 
   softwareName  = 'WeChat*'
-  checksum      = '7ff5f5f96b5dfc0def49505a6d00dc6a'
-  checksumType  = 'md5'
+  checksum      = '750b36b615625a9fb5821ba61616da860ed0925012d7b7aad81861d2176fdfb7b3cfa2d59c6f98ee9e732fa8ee3ca9cff3df137a2e47b38c7f706d7c8d4813c5'
+  checksumType  = 'sha512'
 }
 
 Install-ChocolateyPackage @packageArgs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
