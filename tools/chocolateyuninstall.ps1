@@ -1,20 +1,14 @@
-﻿
-
-$ErrorActionPreference = 'Stop';
-
-$packageName = 'wechat'
-$softwareName = 'WeChat*'
+﻿$ErrorActionPreference = 'Stop';
 $installerType = 'EXE' 
-
 $silentArgs = '/qn /norestart'
 $validExitCodes = @(0, 3010, 1605, 1614, 1641)
+
 if ($installerType -ne 'MSI') {
   $silentArgs = '/S'
   $validExitCodes = @(0)
 }
 
-$uninstalled = $false
-[array]$key = Get-UninstallRegistryKey -SoftwareName $softwareName
+[array]$key = Get-UninstallRegistryKey -SoftwareName 'WeChat*'
 
 if ($key.Count -eq 1) {
   $key | % { 
@@ -22,24 +16,20 @@ if ($key.Count -eq 1) {
 
     if ($installerType -eq 'MSI') {
       $silentArgs = "$($_.PSChildName) $silentArgs"
-
       $file = ''
     }
 
-    Uninstall-ChocolateyPackage -PackageName $packageName `
+    Uninstall-ChocolateyPackage -PackageName wechat `
                                 -FileType $installerType `
                                 -SilentArgs "$silentArgs" `
                                 -ValidExitCodes $validExitCodes `
                                 -File "$file"
   }
 } elseif ($key.Count -eq 0) {
-  Write-Warning "$packageName has already been uninstalled by other means."
+  Write-Warning "We did not find a WeChat installation."
 } elseif ($key.Count -gt 1) {
-  Write-Warning "$key.Count matches found!"
-  Write-Warning "To prevent accidental data loss, no programs will be uninstalled."
-  Write-Warning "Please alert package maintainer the following keys were matched:"
+  Write-Warning "We found $key.Count WeChat installations!"
+  Write-Warning "We will stop here to prevent accidental data loss."
+  Write-Warning "Please alert the maintainer of this Chocolatey package about the following keys:"
   $key | % {Write-Warning "- $_.DisplayName"}
 }
-
-
-
