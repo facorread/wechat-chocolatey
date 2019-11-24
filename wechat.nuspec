@@ -16,25 +16,26 @@
     <summary>WeChat instant messaging tool</summary>
     <description>From https://play.google.com/store/apps/details?id=com.tencent.mm
     
-WeChat is more than a messaging and social media app – it is a lifestyle for one billion users across the world. Chat and make calls with friends, read news and use local services in Official Accounts and Mini Programs, play games with friends, enjoy mobile payment features with WeChat Pay, and much more.
+WeChat is more than a messaging and social media app – it is a lifestyle for over one billion users across the world. Chat and make calls with friends, read news and use local services in Official Accounts and Mini Programs, play fun games with friends, enjoy mobile payment features with WeChat Pay, and much more.
 
-Why do one billion people use WeChat?
+Why do over one billion people use WeChat? Well...
 • MORE WAYS TO CHAT: Message friends using text, photo, voice, video, location sharing, and more. Create group chats with up to 500 members.
-• VOICE and VIDEO CALLS: High-quality voice and video calls to anywhere in the world. Make group video calls with up to 9 people.
+• VOICE AND VIDEO CALLS: High-quality voice and video calls to anywhere in the world. Make group video calls with up to 9 people.
 • REAL-TIME LOCATION: Not good at explaining directions? Share your real-time location with the press of a button.
-• MOMENTS: Never forget your favorite moments. Post photos, videos, and more to share with friends on your personal Moments stream.
+• MOMENTS: Share your favorite moments. Post photos, videos, and more to your Moments stream.
 • TIME CAPSULE (NEW!): Share glimpses of your day. Record short videos to post in your Time Capsule before they disappear in 24 hours.
 • STICKER GALLERY: Browse thousands of fun, animated stickers to help express yourself in chats, including stickers with your favorite cartoon and movie characters.
-• CUSTOM STICKERS (NEW!): Make chatting more unique with custom stickers and selfie stickers.
+• CUSTOM STICKERS: Make chatting more unique with custom stickers and the new Selfie Stickers feature.
 • OFFICIAL ACCOUNTS: Tons of accounts to follow with original content and news for your reading pleasure.
-• MINI PROGRAMS: Countless third-party services all within the WeChat app that don’t require additional installation, saving you precious phone storage and time. 
+• MINI PROGRAMS: Countless third-party services all within the WeChat app that don’t require additional installation, saving you precious phone storage and time.
 • TOP STORIES: See the latest articles your friends are reading and discover all kinds of interesting content.
-• GAMES: Have fun and compete with friends in a huge selection of WeChat Mini Games and Tencent Games (available in certain regions).
-• WECHAT PAY: Enjoy the convenience of world-leading mobile payment features with WeChat Pay and Wallet (available in select regions).
-• WECHAT OUT: Make calls to mobile phones and landlines around the globe at super low rates (available in select regions).
+• GAMES: Have fun and compete with friends in a huge selection of WeChat Mini Games and Tencent Games (*only available in certain regions).
+• WECHAT PAY: Enjoy the convenience of world-leading mobile payment features with WeChat Pay and Wallet (*only available in certain regions).
+• WECHAT OUT: Make calls to mobile phones and landlines around the globe at super low rates (*only available in certain regions).
 • LANGUAGE SUPPORT: Localized in 20 different languages and can translate friends’ messages and Moments posts.
-• BETTER PRIVACY: Giving you the highest level of control over your privacy, WeChat is the only messaging app to be certified by TRUSTe.</description>
-    <releaseNotes>Tencent does not publish release notes for WeChat.</releaseNotes>
+• BETTER PRIVACY: Giving you the highest level of control over your privacy, WeChat is the only messaging app to be certified by TRUSTe.
+• AND MUCH MORE: Exercise with friends on WeRun, scan QR codes, and much more.</description>
+    <releaseNotes>Tencent does not publish release notes for WeChat for Windows.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
