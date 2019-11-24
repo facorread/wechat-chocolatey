@@ -1,4 +1,6 @@
-﻿## Summary
+﻿# Generic ReadMe from Chocolatey
+
+## Summary
 How do I create packages? See https://chocolatey.org/docs/create-packages
 
 If you are submitting packages to the community feed (https://chocolatey.org)
