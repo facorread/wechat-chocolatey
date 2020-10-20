@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>wechat</id>
-    <version>2.9.5.20201001</version>
+    <version>3.0.0</version>
     <packageSourceUrl>https://github.com/facorread/wechat-chocolatey</packageSourceUrl>
     <owners>Fabio A. Correa Duran</owners>
     <title>WeChat</title>

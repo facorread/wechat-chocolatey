@@ -6,7 +6,7 @@ $packageArgs = @{
   url          = 'https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe'
   silentArgs   = '/S'
   softwareName = 'WeChat*'
-  checksum     = '2a9f43b5dbb71a91dec6ac67d7ee8cbdd089658def317366f24a17bcb7f6f6456e220876b5d3658f85a1a6af960f082353da9b4a3f87f99a7cccbdec8bf82fb2'
+  checksum     = '95ab26c3048b6705954549d30bb4f3ee12c8a61c3a961477fa7d736d2792ffc01f6e550472b8c0148d7df66a04c9877b5a4857dc56684b96ea0baa56b184d74b'
   checksumType = 'sha512'
 }
 
